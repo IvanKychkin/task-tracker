@@ -3,7 +3,7 @@
 function App() {
   return (
     <div className="App">
-      <div>Hello test!</div>
+      <div>TASK-TRACKER APP</div>
     </div>
   );
 }
