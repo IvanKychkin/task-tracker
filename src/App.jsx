@@ -1,15 +1,14 @@
-// import './App.css';
-import GlobalStyle from "./globalStyles";
+import { BrowerRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/index";
 
 const App = () => {
   return (
-    <>
-      <GlobalStyle />
-      <div className="App">
-        <div>TASK-TRACKER APP!</div>
-      </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
   );
-};
+ };
 
 export default App;
