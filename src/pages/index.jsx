@@ -1,4 +1,4 @@
-import DefaultTemplate from ".components/templates/DefaultTemplate/DefaultTemplate";
+import DefaultTemplate from "../components/templates/DefaultTemplate/DefaultTemplate";
 
 const HomePage = () => {
   return (
