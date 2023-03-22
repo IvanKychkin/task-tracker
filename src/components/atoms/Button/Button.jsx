@@ -1,11 +1,17 @@
 import React from "react";
-//import styled from "styled-components";
+import styled from "styled-components";
 
-const Button = ({ disbaled, onCLick, label : string = "button text", color : string = "black"}) => {
+const StyledButton = styled.button`
+    background: #c4a6fc;
+    display: flex;
+    flew-flow: column wrap;
+`;
+
+const Button = ({ color = "black", disabled, label = "button text" }) => {
     return (
-        <styledButton color={color} disabled={disabled} onCLick={onClick}>
+        <StyledButton color={color} disabled={disabled}>
             {label}
-        </styledButton>
+        </StyledButton>
     );
 };
 export default Button;
