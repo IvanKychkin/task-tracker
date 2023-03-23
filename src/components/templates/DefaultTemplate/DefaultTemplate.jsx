@@ -14,7 +14,3 @@ const DefaultTemplate = () => {
 };
 
 export default DefaultTemplate;
-
-/* const onClick = () => {
-  console.log("hi!");
-}; */
