@@ -11,8 +11,10 @@ const StyledMainContent = styled.main`
 `;
 
 const StyledList = styled.li`
-  padding: 0.3rem;
+  padding: 0.4rem;
   color: #a4013a;
+  font-size: large;
+  font-weight: bold;
 `;
 
 const MainContent = () => {
@@ -52,7 +54,7 @@ const MainContent = () => {
       </div>
       <StyledList>Graduated bachelor at KNRTU-KAI</StyledList>
       <StyledList>Sysadmin at Stackers</StyledList>
-      <StyledList>Ex soundman</StyledList>
+      <StyledList>Ex soundman at school and K4 Records</StyledList>
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sed exercitationem distinctio maiores explicabo
         quas dolores ratione error animi eius a soluta, eaque, doloribus odio! Lorem ipsum dolor, sit amet consectetur
@@ -93,7 +95,7 @@ const MainContent = () => {
         adipisicing elit. Iusto adipisci obcaecati esse. Consectetur tenetur itaque, eum, at deserunt eveniet amet
         laboriosam ipsum delectus repellendus vitae cupiditate. Voluptates, optio dolor!
       </div>
-      <Button />
+      <Button>Click me!</Button>
     </StyledMainContent>
   );
 };

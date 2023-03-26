@@ -8,8 +8,8 @@ const StyledHeader = styled.header`
   width: 100%;
 `;
 
-const Header = () => {
-  return <StyledHeader>Task Tracker</StyledHeader>;
+const Header = ({ pageName }) => {
+  return <StyledHeader>Task Tracker | {pageName}</StyledHeader>;
 };
 
 export default Header;
