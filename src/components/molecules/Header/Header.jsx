@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const StyledHeader = styled.header`
   background: #fe74a4;
   padding: 0.5rem 1rem;
+  height: 15px;
   position: sticky;
   top: 0;
   display: flex;
@@ -17,6 +18,7 @@ const StyledLink = styled(Link)`
 
 const StyledPageTitle = styled.div`
   flex-basis: 90%;
+  color: white;
 `;
 
 const Header = ({ pageName }) => {

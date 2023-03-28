@@ -3,8 +3,8 @@ import styled, { css } from "styled-components";
 
 const StyledButton = styled.button(
   ({ color }) => css`
-    color: ${color};
-    background: #fc035a;
+    color: black;
+    background: ${color};
     width: 5rem;
     margin: 1rem;
     padding: 0.3rem 0.6rem;

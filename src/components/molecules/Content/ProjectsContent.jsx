@@ -7,25 +7,133 @@ const StyledProjectsContent = styled.main`
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  justify-content: center;
-  padding: 2.5rem 1rem;
-  min-height: 80vh;
+`; // 22px(header); 15px+1rem(footer) min-height: calc(100vh - 22px - 15px - 1rem);
+
+const StyledTable = styled.table`
+  width: 100%;
+  text-align: center;
+  border: 1px solid #808080;
+`;
+
+const StyledHead = styled.thead`
+  background: #ffb2cd;
+`;
+
+const StyledTd = styled.td`
+  font-weight: 600;
+  background: #ebdae0;
+  border-block: 1px solid #808080;
+  writing-mode: horizontal-tb;
+`;
+
+const StyledTh = styled.th`
+  font-weight: 900;
+  padding: 0.5rem 1rem;
 `;
 
 const ProjectsContent = () => {
   return (
     <StyledProjectsContent>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sed exercitationem distinctio maiores explicabo
-        quas dolores ratione error animi eius a soluta, eaque, doloribus odio! Lorem ipsum dolor, sit amet consectetur
-        adipisicing elit. Sed sit porro fugiat ipsam, soluta cupiditate, sunt corrupti officiis exercitationem qui
-        blanditiis minus quisquam dolor eos commodi dolorum, quas neque nam. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Iusto adipisci obcaecati esse. Consectetur tenetur itaque, eum, at deserunt eveniet amet
-        laboriosam ipsum delectus repellendus vitae cupiditate. Voluptates, optio dolor!
-      </div>
-      <Button>Lorem ipsum dolor</Button>
+      <StyledTable>
+        <StyledHead>
+          <tr>
+            <StyledTh>Name</StyledTh>
+            <StyledTh>Description</StyledTh>
+            <StyledTh>Created at</StyledTh>
+            <StyledTh> </StyledTh>
+            <StyledTh> </StyledTh>
+            <StyledTh> </StyledTh>
+          </tr>
+        </StyledHead>
+        <tbody>
+          <tr>
+            <StyledTd>Project 1</StyledTd>
+            <StyledTd>no description about description description</StyledTd>
+            <StyledTd>20.03.2023</StyledTd>
+            <StyledTd>
+              <Button color="#ccccff">Tasks</Button>
+            </StyledTd>
+            <StyledTd>
+              <Button color="#fae7b5">Edit</Button>
+            </StyledTd>
+            <StyledTd>
+              <Button color="#ff9baa">Destroy</Button>
+            </StyledTd>
+          </tr>
+          <tr>
+            <StyledTd>Project 2</StyledTd>
+            <StyledTd>no description here right now</StyledTd>
+            <StyledTd>10.01.2023</StyledTd>
+            <StyledTd>
+              <Button color="#ccccff">Tasks</Button>
+            </StyledTd>
+            <StyledTd>
+              <Button color="#fae7b5">Edit</Button>
+            </StyledTd>
+            <StyledTd>
+              <Button color="#ff9baa">Destroy</Button>
+            </StyledTd>
+          </tr>
+          <tr>
+            <StyledTd>Project 3</StyledTd>
+            <StyledTd>no description about this project</StyledTd>
+            <StyledTd>02.06.2023</StyledTd>
+            <StyledTd>
+              <Button color="#ccccff">Tasks</Button>
+            </StyledTd>
+            <StyledTd>
+              <Button color="#fae7b5">Edit</Button>
+            </StyledTd>
+            <StyledTd>
+              <Button color="#ff9baa">Destroy</Button>
+            </StyledTd>
+          </tr>
+        </tbody>
+      </StyledTable>
     </StyledProjectsContent>
   );
 };
 
 export default ProjectsContent;
+
+/*
+table.purpleHorizon {
+  background-color: #FFEDF3;
+  width: 100%;
+  text-align: center;
+}
+table.purpleHorizon StyledTd, table.purpleHorizon StyledTh {
+  border: 1px solid #333333;
+  padding: 4px 4px;
+}
+table.purpleHorizon tbody StyledTd {
+  font-size: 13px;
+  font-weight: bold;
+  color: #333333;
+}
+table.purpleHorizon tr:nth-child(even) {
+  background: #FEC8D6;
+}
+table.purpleHorizon thead {
+  background: #FE74A4;
+}
+table.purpleHorizon thead StyledTh {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+table.purpleHorizon tfoot StyledTd {
+  font-size: 14px;
+}
+table.purpleHorizon tfoot .links {
+  text-align: right;
+}
+table.purpleHorizon tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+*/
