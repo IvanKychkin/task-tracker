@@ -7,7 +7,7 @@ const StyledProjectsContent = styled.main`
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-`; // 22px(header); 15px+1rem(footer) min-height: calc(100vh - 22px - 15px - 1rem);
+`;
 
 const StyledTable = styled.table`
   width: 100%;
@@ -95,45 +95,3 @@ const ProjectsContent = () => {
 };
 
 export default ProjectsContent;
-
-/*
-table.purpleHorizon {
-  background-color: #FFEDF3;
-  width: 100%;
-  text-align: center;
-}
-table.purpleHorizon StyledTd, table.purpleHorizon StyledTh {
-  border: 1px solid #333333;
-  padding: 4px 4px;
-}
-table.purpleHorizon tbody StyledTd {
-  font-size: 13px;
-  font-weight: bold;
-  color: #333333;
-}
-table.purpleHorizon tr:nth-child(even) {
-  background: #FEC8D6;
-}
-table.purpleHorizon thead {
-  background: #FE74A4;
-}
-table.purpleHorizon thead StyledTh {
-  font-size: 15px;
-  font-weight: bold;
-  color: #FFFFFF;
-  text-align: center;
-}
-table.purpleHorizon tfoot StyledTd {
-  font-size: 14px;
-}
-table.purpleHorizon tfoot .links {
-  text-align: right;
-}
-table.purpleHorizon tfoot .links a{
-  display: inline-block;
-  background: #1C6EA4;
-  color: #FFFFFF;
-  padding: 2px 8px;
-  border-radius: 5px;
-}
-*/
