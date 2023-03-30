@@ -1,4 +1,4 @@
-import MainContent from "../components/molecules/MainContent/MainContent";
+import MainContent from "../components/molecules/Content/MainContent";
 import DefaultTemplate from "../components/templates/DefaultTemplate/DefaultTemplate";
 
 const HomePage = () => {
