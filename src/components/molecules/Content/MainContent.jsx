@@ -7,8 +7,9 @@ const StyledMainContent = styled.main`
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  justify-content: center;
   padding: 1.5rem 1rem;
+  max-width: 100%;
+  overflow: scroll;
 `;
 
 const StyledList = styled.li`
