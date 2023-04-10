@@ -10,8 +10,9 @@
     },
     "plugins": ["react", "prettier"],
     "rules": {
-      "prettier/prettier": "error",
+      "prettier/prettier": 1,
       "react/react-in-jsx-scope": "off",
+      "import/prefer-default-export": 0,
       "react/function-component-definition": [
         "error",
         {
@@ -26,7 +27,14 @@
         "error",
         {
           "allowTernary": true
+        } 
+      ] 
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "paths": ["./"]
         }
-      ]
+      }
     }
   }

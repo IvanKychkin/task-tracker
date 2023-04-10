@@ -18,17 +18,13 @@ const StyledTd = styled.td`
   writing-mode: horizontal-tb;
 `;
 
-const TableRow = () => {
+const TaskRow = () => {
   return (
     <StyledTr>
-      <StyledTd>Project 1</StyledTd>
-      <StyledTd>no description about description description</StyledTd>
+      <StyledTd>Homework 27.03</StyledTd>
+      <StyledTd>no description about this</StyledTd>
       <StyledTd>20.03.2023</StyledTd>
-      <StyledTd>
-        <Button color="#ccccff" type="Task">
-          Tasks
-        </Button>
-      </StyledTd>
+      <StyledTd>27.03.2023</StyledTd>
       <StyledTd>
         <Button color="#fae7b5">Edit</Button>
       </StyledTd>
@@ -39,4 +35,4 @@ const TableRow = () => {
   );
 };
 
-export default TableRow;
+export default TaskRow;

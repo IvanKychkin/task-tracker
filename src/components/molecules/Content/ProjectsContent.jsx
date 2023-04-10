@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import TableRow from "../TableRow/TableRow";
+import { useProjects } from "../../../hooks/states/project";
 
 const StyledProjectsContent = styled.main`
   background: #ffedf3;
@@ -28,29 +29,34 @@ const StyledTh = styled.th`
 `;
 
 const ProjectsContent = () => {
+  const { projects, loading } = useProjects();
+  console.log(projects);
+
   return (
     <StyledProjectsContent>
-      <StyledTable>
-        <StyledHead>
-          <tr>
-            <StyledTh>Name</StyledTh>
-            <StyledTh>Description</StyledTh>
-            <StyledTh>Created at</StyledTh>
-            <StyledTh> </StyledTh>
-            <StyledTh> </StyledTh>
-            <StyledTh> </StyledTh>
-          </tr>
-        </StyledHead>
-        <tbody>
-          <TableRow />
-          <TableRow />
-          <TableRow />
-          <TableRow />
-          <TableRow />
-        </tbody>
-      </StyledTable>
+      {loading ? <>loading...</> : !!projects.length && (
+        <StyledTable>
+          <StyledHead>
+            <tr>
+              <StyledTh>Name</StyledTh>
+              <StyledTh>Description</StyledTh>
+              <StyledTh>Created at</StyledTh>
+              <StyledTh> </StyledTh>
+              <StyledTh> </StyledTh>
+              <StyledTh> </StyledTh>
+            </tr>
+          </StyledHead>
+          <tbody>
+            <TableRow />
+            <TableRow />
+            <TableRow />
+            <TableRow />
+            <TableRow />
+          </tbody>
+        </StyledTable>
+      )}
     </StyledProjectsContent>
   );
-};
+}
 
 export default ProjectsContent;
