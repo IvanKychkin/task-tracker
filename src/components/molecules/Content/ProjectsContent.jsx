@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import TableRow from "../TableRow/TableRow";
+import { v4 } from "uuid";
+
+import TableRows from "../TableRow/TableRows";
 import { useProjects } from "../../../hooks/states/project";
 
 const StyledProjectsContent = styled.main`
@@ -37,21 +39,18 @@ const ProjectsContent = () => {
       {loading ? <>loading...</> : !!projects.length && (
         <StyledTable>
           <StyledHead>
-            <tr>
+            <tr key={`table-head-${v4()}`}>
               <StyledTh>Name</StyledTh>
               <StyledTh>Description</StyledTh>
               <StyledTh>Created at</StyledTh>
+              <StyledTh>Updated at</StyledTh>
               <StyledTh> </StyledTh>
               <StyledTh> </StyledTh>
               <StyledTh> </StyledTh>
             </tr>
           </StyledHead>
           <tbody>
-            <TableRow />
-            <TableRow />
-            <TableRow />
-            <TableRow />
-            <TableRow />
+            <TableRows />
           </tbody>
         </StyledTable>
       )}

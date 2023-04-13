@@ -6,6 +6,8 @@ export default gql`
       id
       createdAt
       description
+      name
+      updatedAt
     }
   }
 `;

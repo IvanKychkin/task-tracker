@@ -25,9 +25,9 @@
     leven "^3.1.0"
 
 "@apollo/client@^3.7.11":
-  version "3.7.11"
-  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.7.11.tgz#fbe9ac3cd508123aacae370dfb3d268fd74f3a44"
-  integrity sha512-uLg2KtxoAyj9ta7abLxXx8cGRM7HypCkXVmxtL7Ko//N5g37aoJ3ca7VYoFCMUFO1BXBulj+yKVl0U3+ILj5AQ==
+  version "3.7.12"
+  resolved "https://registry.npmjs.org/@apollo/client/-/client-3.7.12.tgz"
+  integrity sha512-XvH8ssDibx5hR92Tet8CHtUxhiIs+RbYjyxkflAcnF85QT3VacUdNAhjj0OcA2kcZ+5KyceJmilmBNjj6+rJFg==
   dependencies:
     "@graphql-typed-document-node/core" "^3.1.1"
     "@wry/context" "^0.7.0"
@@ -1255,7 +1255,7 @@
 
 "@graphql-typed-document-node/core@^3.1.1":
   version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@graphql-typed-document-node/core/-/core-3.2.0.tgz#5f3d96ec6b2354ad6d8a28bf216a1d97b5426861"
+  resolved "https://registry.npmjs.org/@graphql-typed-document-node/core/-/core-3.2.0.tgz"
   integrity sha512-mB9oAsNCm9aM3/SOv4YtBMqZbYj10R7dkq8byBqxGY/ncFwhf2oQzMV+LCRlWoDSEBJ3COiR1yeDvMtsoOsuFQ==
 
 "@humanwhocodes/config-array@^0.11.8":
@@ -1625,10 +1625,10 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@remix-run/router@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.4.0.tgz#74935d538e4df8893e47831a7aea362f295bcd39"
-  integrity sha512-BJ9SxXux8zAg991UmT8slpwpsd31K1dHHbD3Ba4VzD+liLQ4WAMSxQp2d2ZPRPfN0jN2NPRowcSSoM7lCaF08Q==
+"@remix-run/router@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.npmjs.org/@remix-run/router/-/router-1.5.0.tgz"
+  integrity sha512-bkUDCp8o1MvFO+qxkODcbhSqRa6P2GXgrGZVpt0dCXNW2HCSCqYI0ZoAqEOSAjRWmmlKcYgFvN4B4S+zo/f8kg==
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
@@ -2155,6 +2155,11 @@
   resolved "https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.3.tgz"
   integrity sha512-NfQ4gyz38SL8sDNrSixxU2Os1a5xcdFxipAFxYEuLUlvU2uDwS4NUpsImcf1//SlWItCVMMLiylsxbmNMToV/g==
 
+"@types/uuid@8.3.4":
+  version "8.3.4"
+  resolved "https://registry.npmjs.org/@types/uuid/-/uuid-8.3.4.tgz"
+  integrity sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw==
+
 "@types/ws@^8.5.1":
   version "8.5.4"
   resolved "https://registry.npmjs.org/@types/ws/-/ws-8.5.4.tgz"
@@ -2395,21 +2400,21 @@
 
 "@wry/context@^0.7.0":
   version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@wry/context/-/context-0.7.0.tgz#be88e22c0ddf62aeb0ae9f95c3d90932c619a5c8"
+  resolved "https://registry.npmjs.org/@wry/context/-/context-0.7.0.tgz"
   integrity sha512-LcDAiYWRtwAoSOArfk7cuYvFXytxfVrdX7yxoUmK7pPITLk5jYh2F8knCwS7LjgYL8u1eidPlKKV6Ikqq0ODqQ==
   dependencies:
     tslib "^2.3.0"
 
 "@wry/equality@^0.5.0":
   version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@wry/equality/-/equality-0.5.3.tgz#fafebc69561aa2d40340da89fa7dc4b1f6fb7831"
+  resolved "https://registry.npmjs.org/@wry/equality/-/equality-0.5.3.tgz"
   integrity sha512-avR+UXdSrsF2v8vIqIgmeTY0UR91UT+IyablCyKe/uk22uOJ8fusKZnH9JH9e1/EtLeNJBtagNmL3eJdnOV53g==
   dependencies:
     tslib "^2.3.0"
 
 "@wry/trie@^0.3.0":
   version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@wry/trie/-/trie-0.3.2.tgz#a06f235dc184bd26396ba456711f69f8c35097e6"
+  resolved "https://registry.npmjs.org/@wry/trie/-/trie-0.3.2.tgz"
   integrity sha512-yRTyhWSls2OY/pYLfwff867r8ekooZ4UI+/gxot5Wj8EFwSf2rG+n+Mo/6LoLQm1TKA4GRj2+LCpbfS937dClQ==
   dependencies:
     tslib "^2.3.0"
@@ -4147,7 +4152,7 @@ eslint-config-airbnb-base@^15.0.0:
 
 eslint-config-airbnb@^19.0.4:
   version "19.0.4"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb/-/eslint-config-airbnb-19.0.4.tgz#84d4c3490ad70a0ffa571138ebcdea6ab085fdc3"
+  resolved "https://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-19.0.4.tgz"
   integrity sha512-T75QYQVQX57jiNgpF9r1KegMICE94VYwoFQyMGhrvc+lB8YF2E/M/PYDaQe1AJcWaEgqLE+ErXV1Og/+6Vyzew==
   dependencies:
     eslint-config-airbnb-base "^15.0.0"
@@ -4156,7 +4161,7 @@ eslint-config-airbnb@^19.0.4:
 
 eslint-config-prettier@^8.7.0:
   version "8.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.7.0.tgz#f1cc58a8afebc50980bd53475451df146c13182d"
+  resolved "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-8.7.0.tgz"
   integrity sha512-HHVXLSlVUhMSmyW4ZzEuvjpwqamgmlfkutD53cYXLikh4pt/modINRcCIApJ84czDxM4GZInwUrromsDdTImTA==
 
 eslint-config-react-app@^7.0.1:
@@ -4255,7 +4260,7 @@ eslint-plugin-jsx-a11y@^6.5.1, eslint-plugin-jsx-a11y@^6.7.1:
 
 eslint-plugin-prettier@^4.2.1:
   version "4.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-4.2.1.tgz#651cbb88b1dab98bfd42f017a12fa6b2d993f94b"
+  resolved "https://registry.npmjs.org/eslint-plugin-prettier/-/eslint-plugin-prettier-4.2.1.tgz"
   integrity sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==
   dependencies:
     prettier-linter-helpers "^1.0.0"
@@ -4478,7 +4483,7 @@ execa@^6.1.0:
 
 exenv@^1.2.0:
   version "1.2.2"
-  resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
+  resolved "https://registry.npmjs.org/exenv/-/exenv-1.2.2.tgz"
   integrity sha512-Z+ktTxTwv9ILfgKCk32OX3n/doe+OcLTRtqK9pcL+JsP3J1/VW8Uvl4ZjLlKqeW4rzK4oesDOGMEMRIZqtP4Iw==
 
 exit@^0.1.2:
@@ -4936,14 +4941,14 @@ grapheme-splitter@^1.0.4:
 
 graphql-tag@^2.12.6:
   version "2.12.6"
-  resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.12.6.tgz#d441a569c1d2537ef10ca3d1633b48725329b5f1"
+  resolved "https://registry.npmjs.org/graphql-tag/-/graphql-tag-2.12.6.tgz"
   integrity sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg==
   dependencies:
     tslib "^2.1.0"
 
 graphql@^16.6.0:
   version "16.6.0"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.6.0.tgz#c2dcffa4649db149f6282af726c8c83f1c7c5fdb"
+  resolved "https://registry.npmjs.org/graphql/-/graphql-16.6.0.tgz"
   integrity sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==
 
 gzip-size@^6.0.0:
@@ -5167,7 +5172,7 @@ human-signals@^3.0.1:
 
 husky@^8.0.3:
   version "8.0.3"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-8.0.3.tgz#4936d7212e46d1dea28fef29bb3a108872cd9184"
+  resolved "https://registry.npmjs.org/husky/-/husky-8.0.3.tgz"
   integrity sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==
 
 iconv-lite@0.4.24:
@@ -6311,7 +6316,7 @@ lines-and-columns@^1.1.6:
 
 lint-staged@^13.1.2:
   version "13.1.2"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-13.1.2.tgz#443636a0cfd834d5518d57d228130dc04c83d6fb"
+  resolved "https://registry.npmjs.org/lint-staged/-/lint-staged-13.1.2.tgz"
   integrity sha512-K9b4FPbWkpnupvK3WXZLbgu9pchUJ6N7TtVZjbaPsoizkqFUDkUReUL25xdrCljJs7uLUF3tZ7nVPeo/6lp+6w==
   dependencies:
     cli-truncate "^3.1.0"
@@ -6848,7 +6853,7 @@ open@^8.0.9, open@^8.4.0:
 
 optimism@^0.16.2:
   version "0.16.2"
-  resolved "https://registry.yarnpkg.com/optimism/-/optimism-0.16.2.tgz#519b0c78b3b30954baed0defe5143de7776bf081"
+  resolved "https://registry.npmjs.org/optimism/-/optimism-0.16.2.tgz"
   integrity sha512-zWNbgWj+3vLEjZNIh/okkY2EUfX+vB9TJopzIZwT1xxaMqC5hRLLraePod4c5n4He08xuXNH+zhKFFCu390wiQ==
   dependencies:
     "@wry/context" "^0.7.0"
@@ -7636,7 +7641,7 @@ prettier-linter-helpers@^1.0.0:
 
 prettier@^2.8.4:
   version "2.8.4"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.4.tgz#34dd2595629bfbb79d344ac4a91ff948694463c3"
+  resolved "https://registry.npmjs.org/prettier/-/prettier-2.8.4.tgz"
   integrity sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==
 
 pretty-bytes@^5.3.0, pretty-bytes@^5.4.1:
@@ -7855,12 +7860,12 @@ react-is@^18.0.0:
 
 react-lifecycles-compat@^3.0.0:
   version "3.0.4"
-  resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
+  resolved "https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
 react-modal@^3.16.1:
   version "3.16.1"
-  resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-3.16.1.tgz#34018528fc206561b1a5467fc3beeaddafb39b2b"
+  resolved "https://registry.npmjs.org/react-modal/-/react-modal-3.16.1.tgz"
   integrity sha512-VStHgI3BVcGo7OXczvnJN7yT2TWHJPDXZWyI/a0ssFNhGZWsPmB8cF0z33ewDXq4VfYMO1vXgiv/g8Nj9NDyWg==
   dependencies:
     exenv "^1.2.0"
@@ -7874,19 +7879,19 @@ react-refresh@^0.11.0:
   integrity sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==
 
 react-router-dom@^6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.9.0.tgz#dd8b4e461453bd4cad2e6404493d1a5b4bfea758"
-  integrity sha512-/seUAPY01VAuwkGyVBPCn1OXfVbaWGGu4QN9uj0kCPcTyNYgL1ldZpxZUpRU7BLheKQI4Twtl/OW2nHRF1u26Q==
+  version "6.10.0"
+  resolved "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.10.0.tgz"
+  integrity sha512-E5dfxRPuXKJqzwSe/qGcqdwa18QiWC6f3H3cWXM24qj4N0/beCIf/CWTipop2xm7mR0RCS99NnaqPNjHtrAzCg==
   dependencies:
-    "@remix-run/router" "1.4.0"
-    react-router "6.9.0"
+    "@remix-run/router" "1.5.0"
+    react-router "6.10.0"
 
-react-router@6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.9.0.tgz#0f503d9becbc62d9e4ddc0f9bd4026e0fd29fbf5"
-  integrity sha512-51lKevGNUHrt6kLuX3e/ihrXoXCa9ixY/nVWRLlob4r/l0f45x3SzBvYJe3ctleLUQQ5fVa4RGgJOTH7D9Umhw==
+react-router@6.10.0:
+  version "6.10.0"
+  resolved "https://registry.npmjs.org/react-router/-/react-router-6.10.0.tgz"
+  integrity sha512-Nrg0BWpQqrC3ZFFkyewrflCud9dio9ME3ojHCF/WLsprJVzkq3q3UeEhMCAW1dobjeGbWgjNn/PVF6m46ANxXQ==
   dependencies:
-    "@remix-run/router" "1.4.0"
+    "@remix-run/router" "1.5.0"
 
 react-scripts@5.0.1:
   version "5.0.1"
@@ -8152,7 +8157,7 @@ resolve@^2.0.0-next.4:
 
 response-iterator@^0.2.6:
   version "0.2.6"
-  resolved "https://registry.yarnpkg.com/response-iterator/-/response-iterator-0.2.6.tgz#249005fb14d2e4eeb478a3f735a28fd8b4c9f3da"
+  resolved "https://registry.npmjs.org/response-iterator/-/response-iterator-0.2.6.tgz"
   integrity sha512-pVzEEzrsg23Sh053rmDUvLSkGXluZio0qu8VT6ukrYuvtjVfCbDZH9d6PGXb8HZfzdNZt8feXv/jvUzlhRgLnw==
 
 restore-cursor@^3.1.0:
@@ -8848,7 +8853,7 @@ svgo@^2.7.0:
 
 symbol-observable@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-4.0.0.tgz#5b425f192279e87f2f9b937ac8540d1984b39205"
+  resolved "https://registry.npmjs.org/symbol-observable/-/symbol-observable-4.0.0.tgz"
   integrity sha512-b19dMThMV4HVFynSAM1++gBHAbk2Tc/osgLIBZMKsyqh34jb2e8Os7T6ZW/Bt3pJFdBTd2JwAnAAEQV7rSNvcQ==
 
 symbol-tree@^3.2.4:
@@ -9021,7 +9026,7 @@ tryer@^1.0.1:
 
 ts-invariant@^0.10.3:
   version "0.10.3"
-  resolved "https://registry.yarnpkg.com/ts-invariant/-/ts-invariant-0.10.3.tgz#3e048ff96e91459ffca01304dbc7f61c1f642f6c"
+  resolved "https://registry.npmjs.org/ts-invariant/-/ts-invariant-0.10.3.tgz"
   integrity sha512-uivwYcQaxAucv1CzRp2n/QdYPo4ILf9VXgH19zEIjFx2EJufV16P0JtJVpYHy89DItG6Kwj2oIUjrcK5au+4tQ==
   dependencies:
     tslib "^2.1.0"
@@ -9224,10 +9229,23 @@ utils-merge@1.0.1:
   resolved "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
 
-uuid@^8.3.2:
+uuid@8.3.2, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+uuid@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.npmjs.org/uuid/-/uuid-9.0.0.tgz"
+  integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
+
+uuidv4@^6.2.13:
+  version "6.2.13"
+  resolved "https://registry.npmjs.org/uuidv4/-/uuidv4-6.2.13.tgz"
+  integrity sha512-AXyzMjazYB3ovL3q051VLH06Ixj//Knx7QnUSi1T//Ie3io6CpsPu9nVMOx5MoLWh6xV0B9J0hIaxungxXUbPQ==
+  dependencies:
+    "@types/uuid" "8.3.4"
+    uuid "8.3.2"
 
 v8-to-istanbul@^8.1.0:
   version "8.1.1"
@@ -9266,7 +9284,7 @@ walker@^1.0.7:
 
 warning@^4.0.3:
   version "4.0.3"
-  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
+  resolved "https://registry.npmjs.org/warning/-/warning-4.0.3.tgz"
   integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
   dependencies:
     loose-envify "^1.0.0"
@@ -9789,12 +9807,12 @@ yocto-queue@^0.1.0:
 
 zen-observable-ts@^1.2.5:
   version "1.2.5"
-  resolved "https://registry.yarnpkg.com/zen-observable-ts/-/zen-observable-ts-1.2.5.tgz#6c6d9ea3d3a842812c6e9519209365a122ba8b58"
+  resolved "https://registry.npmjs.org/zen-observable-ts/-/zen-observable-ts-1.2.5.tgz"
   integrity sha512-QZWQekv6iB72Naeake9hS1KxHlotfRpe+WGNbNx5/ta+R3DNjVO2bswf63gXlWDcs+EMd7XY8HfVQyP1X6T4Zg==
   dependencies:
     zen-observable "0.8.15"
 
 zen-observable@0.8.15:
   version "0.8.15"
-  resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.8.15.tgz#96415c512d8e3ffd920afd3889604e30b9eaac15"
+  resolved "https://registry.npmjs.org/zen-observable/-/zen-observable-0.8.15.tgz"
   integrity sha512-PQ2PC7R9rslx84ndNBZB/Dkv8V8fZEpk83RLgXtYd0fwUgEjseMn1Dgajh2x6S8QbZAFa9p2qVCEuYZNgve0dQ==
