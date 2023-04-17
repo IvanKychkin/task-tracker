@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+
 import Header from "../../molecules/Header/Header";
 import Footer from "../../molecules/Footer/Footer";
+import ScrollToTopButton from "../../molecules/ScrollToTopButton/ScrollToTopButton";
 
 const Container = styled.div`
   display: flex;
@@ -12,6 +14,7 @@ const Container = styled.div`
 const DefaultTemplate = ({ children, Name }) => {
   return (
     <Container>
+      <ScrollToTopButton />
       <Header pageName={Name} />
       {children}
       <Footer />

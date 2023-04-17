@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+
 import Button from "../../atoms/Button/Button";
 
 const StyledMainContent = styled.main`
@@ -7,8 +8,10 @@ const StyledMainContent = styled.main`
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  justify-content: center;
   padding: 1.5rem 1rem;
+  max-width: 100%;
+  overflow: scroll;
+  text-align: justify;
 `;
 
 const StyledList = styled.li`
@@ -19,6 +22,9 @@ const StyledList = styled.li`
 `;
 
 const MainContent = () => {
+  const ButtonMessage = () => {
+    alert("Hi! This is my ITIS FE course pet project. Checkout Projects page! ->");
+  };
   return (
     <StyledMainContent>
       <div>
@@ -96,7 +102,39 @@ const MainContent = () => {
         adipisicing elit. Iusto adipisci obcaecati esse. Consectetur tenetur itaque, eum, at deserunt eveniet amet
         laboriosam ipsum delectus repellendus vitae cupiditate. Voluptates, optio dolor!
       </div>
-      <Button>Click me!</Button>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sed exercitationem distinctio maiores explicabo
+        quas dolores ratione error animi eius a soluta, eaque, doloribus odio! Lorem ipsum dolor, sit amet consectetur
+        adipisicing elit. Sed sit porro fugiat ipsam, soluta cupiditate, sunt corrupti officiis exercitationem qui
+        blanditiis minus quisquam dolor eos commodi dolorum, quas neque nam. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Iusto adipisci obcaecati esse. Consectetur tenetur itaque, eum, at deserunt eveniet amet
+        laboriosam ipsum delectus repellendus vitae cupiditate. Voluptates, optio dolor!
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sed exercitationem distinctio maiores explicabo
+        quas dolores ratione error animi eius a soluta, eaque, doloribus odio! Lorem ipsum dolor, sit amet consectetur
+        adipisicing elit. Sed sit porro fugiat ipsam, soluta cupiditate, sunt corrupti officiis exercitationem qui
+        blanditiis minus quisquam dolor eos commodi dolorum, quas neque nam. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Iusto adipisci obcaecati esse. Consectetur tenetur itaque, eum, at deserunt eveniet amet
+        laboriosam ipsum delectus repellendus vitae cupiditate. Voluptates, optio dolor!
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sed exercitationem distinctio maiores explicabo
+        quas dolores ratione error animi eius a soluta, eaque, doloribus odio! Lorem ipsum dolor, sit amet consectetur
+        adipisicing elit. Sed sit porro fugiat ipsam, soluta cupiditate, sunt corrupti officiis exercitationem qui
+        blanditiis minus quisquam dolor eos commodi dolorum, quas neque nam. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Iusto adipisci obcaecati esse. Consectetur tenetur itaque, eum, at deserunt eveniet amet
+        laboriosam ipsum delectus repellendus vitae cupiditate. Voluptates, optio dolor!
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sed exercitationem distinctio maiores explicabo
+        quas dolores ratione error animi eius a soluta, eaque, doloribus odio! Lorem ipsum dolor, sit amet consectetur
+        adipisicing elit. Sed sit porro fugiat ipsam, soluta cupiditate, sunt corrupti officiis exercitationem qui
+        blanditiis minus quisquam dolor eos commodi dolorum, quas neque nam. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Iusto adipisci obcaecati esse. Consectetur tenetur itaque, eum, at deserunt eveniet amet
+        laboriosam ipsum delectus repellendus vitae cupiditate. Voluptates, optio dolor!
+      </div>
+      <Button onClick={ButtonMessage}>Click me!</Button>
     </StyledMainContent>
   );
 };

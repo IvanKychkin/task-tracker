@@ -10,8 +10,9 @@
     },
     "plugins": ["react", "prettier"],
     "rules": {
-      "prettier/prettier": "error",
+      "prettier/prettier": 1,
       "react/react-in-jsx-scope": "off",
+      "import/prefer-default-export": 0,
       "react/function-component-definition": [
         "error",
         {
@@ -19,6 +20,7 @@
         }
       ],
       "no-unused-vars" : 0,
+      "no-alert" : 0,
       "react/prop-types": 0,
       "arrow-body-style": 0,
       "no-console": "off",
@@ -26,7 +28,14 @@
         "error",
         {
           "allowTernary": true
+        } 
+      ] 
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "paths": ["./"]
         }
-      ]
+      }
     }
   }
