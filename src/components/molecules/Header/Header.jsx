@@ -14,6 +14,9 @@ const StyledHeader = styled.header`
 
 const StyledLink = styled(Link)`
   color: white;
+  &:hover {
+    filter: brightness(85%);
+  }
 `;
 
 const StyledPageTitle = styled.div`

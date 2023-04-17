@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import TaskRow from "../TableRow/TaskRow";
+import TaskRows from "../Table/TaskRows";
 
 const StyledProjectsContent = styled.main`
   background: #ffedf3;
@@ -36,14 +36,16 @@ const TasksContent = () => {
           <tr>
             <StyledTh>Task</StyledTh>
             <StyledTh>Description</StyledTh>
-            <StyledTh>Created</StyledTh>
             <StyledTh>Due</StyledTh>
+            <StyledTh>Created</StyledTh>
+            <StyledTh>Updated</StyledTh>
+            <StyledTh>State</StyledTh>
             <StyledTh> </StyledTh>
             <StyledTh> </StyledTh>
           </tr>
         </StyledHead>
         <tbody>
-          <TaskRow />
+          <TaskRows />
         </tbody>
       </StyledTable>
     </StyledProjectsContent>

@@ -11,12 +11,14 @@ const StyledButton = styled.button(
     border-radius: 4px;
     border: 1.2px solid #696969;
     box-shadow: rgba(100, 100, 111, 0.4) 0px 5px 20px 0px;
+    &:hover {
+      filter: brightness(90%);
+    }
   `,
 );
 
 const Button = ({ color = "white", disabled, onClick = () => {}, children }) => {
   const handleClick = () => {
-    alert("Button works!");
     onClick();
   };
 

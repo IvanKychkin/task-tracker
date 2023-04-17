@@ -22,6 +22,9 @@ const StyledList = styled.li`
 `;
 
 const MainContent = () => {
+  const ButtonMessage = () => {
+    alert("Hi! This is my ITIS FE course pet project. Checkout Projects page! ->");
+  };
   return (
     <StyledMainContent>
       <div>
@@ -131,7 +134,7 @@ const MainContent = () => {
         adipisicing elit. Iusto adipisci obcaecati esse. Consectetur tenetur itaque, eum, at deserunt eveniet amet
         laboriosam ipsum delectus repellendus vitae cupiditate. Voluptates, optio dolor!
       </div>
-      <Button>Click me!</Button>
+      <Button onClick={ButtonMessage}>Click me!</Button>
     </StyledMainContent>
   );
 };

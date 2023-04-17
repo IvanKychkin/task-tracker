@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { v4 } from "uuid";
 
-import TableRows from "../TableRow/TableRows";
+import ProjectRows from "../Table/ProjectRows";
 import { useProjects } from "../../../hooks/states/project";
 
 const StyledProjectsContent = styled.main`
@@ -50,7 +50,7 @@ const ProjectsContent = () => {
             </tr>
           </StyledHead>
           <tbody>
-            <TableRows />
+            <ProjectRows />
           </tbody>
         </StyledTable>
       )}
